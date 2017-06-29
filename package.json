@@ -1,0 +1,25 @@
+{
+  "name": "roll20dicestats",
+  "version": "1.0.0",
+  "description": "Gathers stats for rolls on roll20 over time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "keywords": [
+    "roll20",
+    "dice",
+    "stats"
+  ],
+  "author": "David Tschida",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^1.0.0-rc.1",
+    "jquery": "^3.2.0",
+    "moment": "^2.17.1",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
+  }
+}

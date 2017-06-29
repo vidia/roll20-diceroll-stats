@@ -5,3 +5,8 @@ This repo will take the raw chat archive from Roll20 and spit out a tab delimite
 ## Using this tool
 
 To use this tool you need to have nodeJS installed and have the chat archive saved as `archive.html` in the root of this directory. The text will be printed to `stdout` with headers. 
+
+```sh
+$ npm install
+$ node index.js
+```
